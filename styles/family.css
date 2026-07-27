@@ -19,6 +19,19 @@ body {
       display: flex;
       gap: var(--space-3);
     }
+
+    #hero-fresh {
+      view-transition-name: cheese-fresh;
+    }
+    #hero-soft {
+      view-transition-name: cheese-soft;
+    }
+    #hero-blue {
+      view-transition-name: cheese-blue;
+    }
+    #hero-hard {
+      view-transition-name: cheese-hard;
+    }
   }
 
   > footer {
