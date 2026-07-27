@@ -21,22 +21,11 @@ body {
 
   > header {
     grid-area: header;
-    padding: var(--space-2) var(--space-3);
-    border-block-end: var(--border);
-    background: var(--panel);
   }
 
   > nav {
     grid-area: nav;
-    padding: var(--space-2);
     border-inline-end: var(--border);
-    background: var(--panel);
-
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
   }
 
   > main {
@@ -53,9 +42,6 @@ body {
 
   > footer {
     grid-area: footer;
-    padding: var(--space-2) var(--space-3);
-    border-block-start: var(--border);
-    background: var(--panel);
   }
 
   @media (max-width: 40rem) {
