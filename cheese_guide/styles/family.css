@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100svh;
+
+  > header {
+    grid-area: header;
+  }
+
+  > main {
+    grid-area: main;
+    padding: var(--space-3);
+    nav[aria-label="Cheese families"] {
+      display: flex;
+      gap: var(--space-3);
+    }
+  }
+
+  > footer {
+    grid-area: footer;
+  }
+}
