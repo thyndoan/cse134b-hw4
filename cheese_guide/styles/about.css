@@ -22,6 +22,5 @@ body {
     clear: both;
     padding: var(--space-2);
     border-block-start: var(--rule);
-    background: var(--panel);
   }
 }
