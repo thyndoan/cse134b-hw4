@@ -2,26 +2,38 @@ body {
   padding: var(--space-3);
   margin-inline: auto;
   max-width: var(--measure);
-}
 
-article {
-  padding: var(--space-2) var(--space-3);
-  border-inline-start: var(--rule);
-  background: var(--panel);
-}
-
-section {
-  p {
-    padding: var(--space-2);
-    border: var(--border);
+  article {
+    padding: var(--space-2) var(--space-3);
+    border-inline-start: var(--rule);
     background: var(--panel);
   }
 
-  #warning {
-    background: var(--paper);
-    outline: var(--border-width) var(--border-style) var(--accent);
-  }
-  .latin {
-    font-weight: bold;
+  section {
+    p {
+      padding: var(--space-2);
+      border: var(--border);
+      background: var(--panel);
+    }
+
+    #warning {
+      background: var(--paper);
+      outline: var(--border-width) var(--border-style) var(--accent);
+    }
+    .latin {
+      font-weight: bold;
+    }
+    #hero-fresh {
+      view-transition-name: cheese-fresh;
+    }
+    #hero-soft {
+      view-transition-name: cheese-soft;
+    }
+    #hero-blue {
+      view-transition-name: cheese-blue;
+    }
+    #hero-hard {
+      view-transition-name: cheese-hard;
+    }
   }
 }
