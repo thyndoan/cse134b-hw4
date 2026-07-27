@@ -56,6 +56,11 @@
     }
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   code {
     font-family: ui-monospace, "SF Mono", Menlo, monospace;
     font-size: 0.9em;
