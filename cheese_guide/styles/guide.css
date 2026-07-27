@@ -2,6 +2,14 @@ body {
   padding: var(--space-3);
 }
 
+article {
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding: var(--space-2) var(--space-3);
+  border-inline-start: var(--rule);
+  background: var(--panel);
+}
+
 section {
   p {
     padding: var(--space-2);
@@ -9,17 +17,11 @@ section {
     background: var(--panel);
   }
 
-  strong,
-  em {
+  #warning {
     background: var(--paper);
     outline: var(--border-width) var(--border-style) var(--accent);
   }
-}
-
-article {
-  max-width: var(--measure);
-  margin-inline: auto;
-  padding: var(--space-2) var(--space-3);
-  border-inline-start: var(--rule);
-  background: var(--panel);
+  .latin {
+    font-weight: bold;
+  }
 }
