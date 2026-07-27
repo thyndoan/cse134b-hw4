@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+
+  > main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-3);
+
+    article {
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2);
+        margin-block: var(--space-2);
+      }
+      fieldset {
+        border: var(--border);
+        padding: var(--space-2);
+      }
+    }
+  }
+}
