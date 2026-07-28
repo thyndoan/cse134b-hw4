@@ -1,6 +1,6 @@
 # Q: What did you repeat by hand? What broke when you moved a file? What would you want a tool to generate for you?
 
-## A: What I repeat by hand:
+## What I repeat by hand:
 
 - I repeated copying the head, header, nav, and footer to all the pages so they have the same meta tags, links, logo, nav links, and copyright line.
 - I also copied the same page structure for all four cheese family pages, and I found this very repetitive. Their structures are identical, they just have different content (text, image, and prev/next hrefs). I spent most of my time structuring the fist cheese page, then copied, pasted, and edited it a little bit for the other three cheese.
